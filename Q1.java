@@ -1,16 +1,10 @@
-import java.util.*;
 public class Q1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		Scanner scn = new Scanner(System.in);
-		int [] Arr = new int [10];
 		boolean flag = false;
-		for(int i = 0; i<Arr.length; i++)
-		{
-			Arr[i] = scn.nextInt();
-		}
+		int[] Arr = {50, 20, 50, 60, 10, 20};
 		for(int i = 0; i<Arr.length; i++)
 		{	
 		
@@ -18,7 +12,7 @@ public class Q1 {
 			{	
 				if(Arr[i]==Arr[j])
 				{ 
-					System.out.println("Duplicates found for " + Arr[i] );
+					System.out.println("Duplicate found for " + Arr[i] );
 					flag=true;
 					
 				}
